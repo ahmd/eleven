@@ -24,4 +24,4 @@ jobs:
           name: run tests
           command: |
             npm run build
-            percy snapshot dist
+            percy snapshot src/site
